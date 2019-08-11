@@ -56,7 +56,8 @@ color: black;
   .intro img{
     opacity: 0.8;
     z-index: -1;
-    margin-top: -160px;
+    margin-top: -30px;
+    margin-bottom: 50px;
   }
    }
 
@@ -162,4 +163,134 @@ position: relative;
 left: 30px;
 transition: 0.4s ease-out;
 }
+
+@media(max-width: 500px) {
+   .card:hover ~ .card {
+  position: fixed;
+  transition: none;
+  }
+
+.card{
+  color: #1752c3;
+  border-radius: 30px;
+  margin: 2rem !important;
+  height: 280px;
+  width: 100px;
+  background-color: #ffffff;
+  box-shadow: -5px 10px 8px #888888;
+  border-radius: 40%;
+  padding: 20px;
+  /*   margin-left: -50px; */
+    transition: 0.6s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+}
 /*cards section*/
+
+/*events section*/
+.latest{
+font-weight: 700;
+margin: 20px;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1529 {
+  background-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 30px;
+  max-width: 800px;
+  min-width: 500px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.snip1529 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.snip1529 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+  opacity: 0.75;
+}
+
+.snip1529 figcaption {
+  padding: 25px 20px 25px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.snip1529 .date {
+  background-color: #fff;
+  color: #333;
+  font-size: 18px;
+  font-weight: 800;
+  min-height: 48px;
+  min-width: 48px;
+  padding: 10px 0;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+}
+
+.snip1529 .date span {
+  display: block;
+  line-height: 14px;
+}
+
+.snip1529 .date .month {
+  font-size: 11px;
+}
+
+.snip1529 h3,
+.snip1529 p {
+  margin: 0;
+  padding: 0;
+}
+
+.snip1529 h3 {
+  font-weight: 800;
+  letter-spacing: -0.4px;
+  background-color: rgba(2, 19, 24, 0.75);
+  opacity: 1;
+}
+
+
+.snip1529 p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.snip1529 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.snip1529:hover .date,
+.snip1529.hover .date {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+
+/*events section*/
