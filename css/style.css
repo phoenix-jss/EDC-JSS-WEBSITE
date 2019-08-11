@@ -5,9 +5,14 @@ overflow-x: hidden;
 color: black;
 
 }
+.illustration{
+  margin-top: -250px !important;
+  z-index: -1;
+  margin-left: 150px !important;
+}
 
 .navbar-brand img{
-  margin-top: -110px !important;
+  margin-top: -50px !important;
   height: 200px;
   width: 200px; 
 }
@@ -21,16 +26,22 @@ color: black;
     margin-top: 80px !important;
   }
   
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   .navbar-brand img{
-    margin-top: -40px !important;
-    height: 150px;
-    width: 150px; 
+    margin-top: -20px !important;
+    height: 100px;
+    width: 100px; 
   }
-
+  .illustration{
+    margin-top: -25px !important;
+    z-index: -1;
+    margin-left: 40px !important;
+    width: 90%;
+  }
    }
+
 .container  h1, h2 {
-    font-weight: 200;
+    font-weight: 500;
     margin: 0.4rem;
   }
   
