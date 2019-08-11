@@ -190,6 +190,12 @@ transition: 0.4s ease-out;
 /*cards section*/
 
 /*events section*/
+.events{
+  margin: auto !important;
+}
+.fa-chevron-circle-right{
+  margin-top: 200px;
+}
 .latest{
 font-weight: 700;
 margin: 20px;
@@ -203,7 +209,7 @@ margin: 20px;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  margin: 30px;
+  margin: 50px;
   max-width: 800px;
   min-width: 500px;
   overflow: hidden;
