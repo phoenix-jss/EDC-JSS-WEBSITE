@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Karla|Lato&display=swap');
 body{
 font-family: 'Lato', sans-serif;
-overflow: hidden;
+overflow-x: hidden;
 color: black;
+
 }
 
+.navbar-brand img{
+  margin-top: -110px !important;
+  height: 200px;
+  width: 200px; 
+}
 
 .container {
     display: flex;
@@ -12,20 +18,29 @@ color: black;
     justify-content: center;
     height: 100%;
     padding: 0 3rem;
+    margin-top: 80px !important;
   }
   
-  h1, h2 {
+@media screen and (max-width: 480px) {
+  .navbar-brand img{
+    margin-top: -40px !important;
+    height: 150px;
+    width: 150px; 
+  }
+
+   }
+.container  h1, h2 {
     font-weight: 200;
     margin: 0.4rem;
   }
   
-  h1 {
+.container  h1 {
     font-size: 3.5rem;
   }
   
- h2 {
+.container h2 {
     font-size: 2rem;
-    color: black;
+    color:#2192CB;
   }
   
   /* Cursor */
@@ -34,7 +49,7 @@ color: black;
   }
   
   @media(min-width: 1200px) {
-   h1 {
+   .container h1 {
       font-size: 5rem;
     }
   }
@@ -44,17 +59,17 @@ color: black;
       padding: 0 1rem;
     }
   
-  h1 {
+   .container h1 {
       font-size: 3rem;
     }
   }
   
   @media(max-width: 500px) {
- h1 {
+   .container h1 {
       font-size: 2.5rem;
     }
   
- h2 {
+   .container h2 {
       font-size: 1.5rem;
     }
   }

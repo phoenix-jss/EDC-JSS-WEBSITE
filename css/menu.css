@@ -14,11 +14,26 @@ a:hover{
   margin-left: 200px;
   top: 0;
 }
+
 @media screen and (max-width: 480px) {
 .vl{
   display: none;
 }
 .menu-wrap {
+  font-size: 16px !important;
+}
+.menu-wrap .toggler {
+  width: 30px !important;
+  height: 30px !important;
+}
+.menu-wrap .hamburger {
+  width: 50px !important;
+  height: 50px !important;
+}
+.social i{
+  margin-top: 30px !important;
+  }
+h2{
   font-size: 18px !important;
 }
 }
