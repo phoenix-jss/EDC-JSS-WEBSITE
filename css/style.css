@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karla|Lato&display=swap');
 body{
 font-family: 'Lato', sans-serif;
-overflow-x: hidden;
+overflow-x: hidden !important;
 color: black;
 
 }
@@ -160,7 +160,6 @@ transition: 0.4s ease-out;
 
 .card:hover ~ .card {
 position: relative;
-left: 30px;
 transition: 0.4s ease-out;
 }
 
@@ -173,9 +172,9 @@ transition: 0.4s ease-out;
 .card{
   color: #1752c3;
   border-radius: 30px;
-  margin: 2rem !important;
-  height: 280px;
-  width: 100px;
+  margin: 1.2rem !important;
+  height: 320px !important; 
+  width: 300px !important;
   background-color: #ffffff;
   box-shadow: -5px 10px 8px #888888;
   border-radius: 40%;
@@ -184,6 +183,11 @@ transition: 0.4s ease-out;
     transition: 0.6s ease-out;
     position: relative;
     left: 0px;
+}
+.card-group{
+  display: flex !important;
+flex-direction: column !important;
+justify-content: center !important;
 }
 
 }
@@ -236,7 +240,6 @@ margin: 20px;
   padding: 25px 20px 25px;
   position: absolute;
   bottom: 0;
-  z-index: 1;
 }
 
 .snip1529 .date {
@@ -300,3 +303,68 @@ margin: 20px;
 
 
 /*events section*/
+
+/*footer section*/
+
+.footer{
+  margin-top: 150px;
+  padding: 40px;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+ height: auto;
+ width: 100%;
+ color:#ffffff;
+ background-color: #0B5F89;
+ font-family: 'Lato','San Serif';
+ font-weight: 700;
+ font-size: 20px !important;
+}
+
+.footer-col{
+ margin-right: 150px;
+}
+
+.Copyright{
+ padding: 30px;
+ font-size: 16px;
+ text-align: right;
+}
+
+/*footer section*/
+
+
+@media only screen and (max-width: 760px) {
+
+ body{
+   overflow-x: hidden !important;
+ }
+
+ footer img{
+  display: none;
+ }
+
+ .footer{
+  margin-top: 40px;
+  padding: 40px;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+ height:auto;
+ width: 100%;
+ font-size: 10px !important;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+}
+
+.Copyright{
+ padding: 30px;
+ margin-left: 50px;
+ font-size: 9px;
+}
+
+.footer-col{
+ margin-right: 0px;
+}
+
+}
