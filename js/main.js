@@ -107,3 +107,16 @@ window.sr = ScrollReveal();
           duration: 1000,
           origin:'bottom'
         });
+
+        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        if (isMobile) {
+          sr.reveal('.intro-img', {
+            duration: 2000,
+            origin:'bottom',
+            distance:'300px'
+          });
+          sr.reveal('.footer', {
+            duration: 500,
+            origin:'bottom'
+          });
+        } 
