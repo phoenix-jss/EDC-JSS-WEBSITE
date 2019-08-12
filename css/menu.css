@@ -38,6 +38,12 @@ a:hover{
 h2{
   font-size: 18px !important;
 }
+.social i{
+  margin-top: 20px !important;
+  margin-left: 10px;
+  color:white;
+  }
+  
 }
 
 .social{
@@ -47,11 +53,11 @@ h2{
 .social i{
 margin-top: 100px !important;
 margin-left: 40px;
-color: #ADDEF7;
+color:white;
 }
 
 .social i:hover{
-color: white;
+color:  aqua;
 }
 
 .menu-wrap {

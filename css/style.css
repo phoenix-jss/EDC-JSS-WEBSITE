@@ -23,12 +23,12 @@ color: black;
   
 } */
 
-.illustration{
+/*.illustration{
   margin-top: -250px !important;
   z-index: -1;
   margin-left: 150px !important;
   margin-bottom: 100px;
-}
+}*/
 
 .navbar-brand img{
   height: 200px;
@@ -57,7 +57,7 @@ color: black;
 
 .intro h2 {
   font-size: 2rem;
-  color:#1752c3;
+  color:#0B5F89;
   font-weight: bold;
 }
 
@@ -342,7 +342,7 @@ margin: 20px;
  height: auto;
  width: 100%;
  color:#ffffff;
- background-color: #0B5F89;
+ background-color: rgb(6, 61, 88);
  font-family: 'Lato','San Serif';
  font-weight: 700;
  font-size: 20px !important;
@@ -356,6 +356,7 @@ margin: 20px;
  padding: 30px;
  font-size: 16px;
  text-align: right;
+ color: aqua;
 }
 
 /*footer section*/

@@ -64,3 +64,46 @@ function init() {
   // Init TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
+
+
+//scroll reveal
+window.sr = ScrollReveal();
+        sr.reveal('.intro-text', {
+          duration: 2000,
+          origin:'top',
+          distance:'300px'
+        });
+        sr.reveal('.intro-img', {
+          duration: 2000,
+          origin:'right',
+          distance:'300px'
+        });
+        sr.reveal('.card-group', {
+          duration: 2000,
+          delay: 1000,
+          origin:'bottom'
+        });
+        
+        sr.reveal('.latest', {
+          duration: 2000,
+          delay:500,
+          origin:'bottom',
+          distance:'300px'
+        });
+        sr.reveal('.snip1', {
+          duration: 3000,
+          origin:'right',
+          delay:500,
+          distance:'300px'
+        });
+        sr.reveal('.snip2', {
+          duration: 3000,
+          origin:'left',
+          delay:500,
+          distance:'300px'
+        });
+
+        sr.reveal('.footer', {
+          duration: 1000,
+          origin:'bottom'
+        });
